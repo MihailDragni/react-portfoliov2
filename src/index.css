@@ -12,9 +12,9 @@
     column-gap: 20px;
   }
 
-	.home {
-		grid-template-columns: 5fr 6fr;
-	}
+  .home {
+    grid-template-columns: 5fr 6fr;
+  }
 
   .home-data {
     padding-right: 40px;
@@ -107,6 +107,7 @@
     grid-template-columns: 1fr;
     justify-items: center;
     row-gap: 10px;
+    height: auto;
   }
   .color__block {
     display: none;
