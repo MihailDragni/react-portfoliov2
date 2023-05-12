@@ -31,8 +31,8 @@
 
 @media screen and (max-width: 1200px) {
   :root {
-    --big-font-size: 36px;
-    --h1-font-size: 32px;
+    --big-font-size: 46px;
+    --h1-font-size: 40px;
     --h2-font-size: 24px;
     --h3-font-size: 20px;
     --large-font-size: 16px;
@@ -40,6 +40,12 @@
     --small-font-size: 14px;
     --smaller-font-size: 13px;
     --tiny-font-size: 11px;
+  }
+}
+@media screen and (max-width: 768px) {
+  :root {
+    --big-font-size: 36px;
+    --h1-font-size: 30px;
   }
 }
 
@@ -94,7 +100,9 @@ img {
 
 .container {
   max-width: 1140px;
+	width: 100%;
   margin-inline: auto;
+	padding: 0 15px;
 }
 
 .grid {
