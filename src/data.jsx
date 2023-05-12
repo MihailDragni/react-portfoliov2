@@ -7,12 +7,14 @@ import {
 } from 'react-icons/fa'
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi'
 
-import Work1 from './assets/project-1.jpeg'
-import Work2 from './assets/project-2.jpg'
-import Work3 from './assets/project-3.jpeg'
-import Work4 from './assets/project-4.jpeg'
-import Work5 from './assets/project-5.jpg'
-import Work6 from './assets/project-6.jpg'
+import onlineStore from './assets/online-store.png'
+import pizzaStore from './assets/pizzaStore.png'
+import gameStore from './assets/game-store.png'
+import freeSun from './assets/freeSun.png'
+import restarDent from './assets/restarDent.png'
+import speakup from './assets/speackup.png'
+import resource from './assets/resource.png'
+import moidodir from './assets/moidodir.png'
 
 export const links = [
   {
@@ -127,7 +129,7 @@ export const skills = [
     percentage: '85',
   },
 
-	{
+  {
     id: 2,
     title: 'Scss',
     percentage: '90',
@@ -154,164 +156,344 @@ export const skills = [
 export const portfolio = [
   {
     id: 1,
-    img: Work1,
-    title: 'Photo Editing',
+    img: onlineStore,
+    title: 'React App',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'House Staff',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'React',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Code : ',
+        desc: (
+          <a
+            href="https://github.com/MihailDragni/react-online-store"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+        ),
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: (
+          <a
+            href="https://react-online-store-c4f67.web.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            FireBase
+          </a>
+        ),
       },
     ],
   },
 
   {
     id: 2,
-    img: Work2,
-    title: 'Website Design',
+    img: pizzaStore,
+    title: 'React App',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'React Pizza',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React JS',
+        desc: 'React',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Code : ',
+        desc: (
+          <a
+            href="https://github.com/MihailDragni/pizza-store"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+        ),
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: (
+          <a
+            href="https://pizza-store-575cb.web.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            FireBase
+          </a>
+        ),
       },
     ],
   },
 
   {
     id: 3,
-    img: Work3,
-    title: 'Video Editing',
+    img: gameStore,
+    title: 'React App',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Game Store',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'React',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Code : ',
+        desc: (
+          <a
+            href="https://github.com/MihailDragni/game-store"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+        ),
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: (
+          <a
+            href="https://game-store-56e45.web.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            FireBase
+          </a>
+        ),
       },
     ],
   },
 
   {
     id: 4,
-    img: Work4,
-    title: 'Video Editing',
+    img: freeSun,
+    title: 'Business Card Website',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'freeSun',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Premium',
+        desc: 'Html Scss JS',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Code : ',
+        desc: (
+          <a
+            href="https://github.com/MihailDragni/free-sun"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+        ),
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: (
+          <a href="https://freesun.md/" target="_blank" rel="noreferrer">
+            FreeSun
+          </a>
+        ),
       },
     ],
   },
 
   {
     id: 5,
-    img: Work5,
+    img: restarDent,
     title: 'Landing Page',
     details: [
       {
+        icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Restar-Dent',
       },
       {
-        title: 'Client : ',
-        desc: 'Dribble',
-      },
-      {
+        icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React JS, Node JS',
+        desc: 'Html Scss JS',
       },
       {
+        icon: <FiUser />,
+        title: 'Code : ',
+        desc: (
+          <a
+            href="https://github.com/MihailDragni/restar-dent"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+        ),
+      },
+      {
+        icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: (
+          <a
+            href="http://restar-dent.neppe.kz/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Restar-Dent
+          </a>
+        ),
       },
     ],
   },
 
   {
     id: 6,
-    img: Work6,
-    title: 'Photo Editing',
+    img: speakup,
+    title: 'Landing Page',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
-      },
-      {
-        icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        desc: 'Speakup',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        desc: 'Html Scss JS',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Code : ',
+        desc: (
+          <a
+            href="https://github.com/MihailDragni/speakup"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+        ),
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dibble.com',
+        desc: (
+          <a href="https://speakup.kz/" target="_blank" rel="noreferrer">
+            Speakup
+          </a>
+        ),
+      },
+    ],
+  },
+
+  {
+    id: 7,
+    img: resource,
+    title: 'Landing Page',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Resource',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Html Scss JS',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Code : ',
+        desc: (
+          <a
+            href="https://github.com/MihailDragni/Resource"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+        ),
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: (
+          <a
+            href="https://resource-3ec6b.web.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Firebase
+          </a>
+        ),
+      },
+    ],
+  },
+
+	{
+    id: 8,
+    img: moidodir,
+    title: 'Online Store',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'Moidodir',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'Html Scss JS',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Code : ',
+        desc: (
+          <a
+            href="https://github.com/MihailDragni/moidodir"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+        ),
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: (
+          <a
+            href="https://moidodir-2fb19.web.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Firebase
+          </a>
+        ),
       },
     ],
   },
