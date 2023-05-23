@@ -15,6 +15,7 @@ import restarDent from './assets/restarDent.png'
 import speakup from './assets/speackup.png'
 import resource from './assets/resource.png'
 import moidodir from './assets/moidodir.png'
+import pizzaVue from './assets/pizzaVue.png'
 
 export const links = [
   {
@@ -144,12 +145,12 @@ export const skills = [
   {
     id: 4,
     title: 'React',
-    percentage: '70',
+    percentage: '50',
   },
   {
     id: 5,
     title: 'Vue',
-    percentage: '30',
+    percentage: '50',
   },
 ]
 
@@ -199,26 +200,26 @@ export const portfolio = [
   },
 
   {
-    id: 2,
-    img: pizzaStore,
-    title: 'React App',
+    id: 9,
+    img: pizzaVue,
+    title: 'Vue App',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'React Pizza',
+        desc: 'Delivery Food',
       },
       {
         icon: <FaCode />,
         title: 'Language : ',
-        desc: 'React',
+        desc: 'Vue',
       },
       {
         icon: <FiUser />,
         title: 'Code : ',
         desc: (
           <a
-            href="https://github.com/MihailDragni/pizza-store"
+            href="https://github.com/MihailDragni/pizza-vue"
             target="_blank"
             rel="noreferrer"
           >
@@ -231,7 +232,7 @@ export const portfolio = [
         title: 'Preview : ',
         desc: (
           <a
-            href="https://pizza-store-575cb.web.app/"
+            href="https://pizza-vue-80860.web.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -276,6 +277,50 @@ export const portfolio = [
         desc: (
           <a
             href="https://game-store-56e45.web.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            FireBase
+          </a>
+        ),
+      },
+    ],
+  },
+
+  {
+    id: 2,
+    img: pizzaStore,
+    title: 'React App',
+    details: [
+      {
+        icon: <FiFileText />,
+        title: 'Project : ',
+        desc: 'React Pizza',
+      },
+      {
+        icon: <FaCode />,
+        title: 'Language : ',
+        desc: 'React',
+      },
+      {
+        icon: <FiUser />,
+        title: 'Code : ',
+        desc: (
+          <a
+            href="https://github.com/MihailDragni/pizza-store"
+            target="_blank"
+            rel="noreferrer"
+          >
+            GitHub
+          </a>
+        ),
+      },
+      {
+        icon: <FiExternalLink />,
+        title: 'Preview : ',
+        desc: (
+          <a
+            href="https://pizza-store-575cb.web.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -454,7 +499,7 @@ export const portfolio = [
     ],
   },
 
-	{
+  {
     id: 8,
     img: moidodir,
     title: 'Online Store',
