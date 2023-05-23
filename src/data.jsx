@@ -179,7 +179,7 @@ export const portfolio = [
             target="_blank"
             rel="noreferrer"
           >
-            GitHub
+            Click
           </a>
         ),
       },
@@ -192,7 +192,7 @@ export const portfolio = [
             target="_blank"
             rel="noreferrer"
           >
-            FireBase
+            Click
           </a>
         ),
       },
@@ -223,7 +223,7 @@ export const portfolio = [
             target="_blank"
             rel="noreferrer"
           >
-            GitHub
+            Click
           </a>
         ),
       },
@@ -236,7 +236,7 @@ export const portfolio = [
             target="_blank"
             rel="noreferrer"
           >
-            FireBase
+            Click
           </a>
         ),
       },
@@ -267,7 +267,7 @@ export const portfolio = [
             target="_blank"
             rel="noreferrer"
           >
-            GitHub
+            Click
           </a>
         ),
       },
@@ -280,7 +280,7 @@ export const portfolio = [
             target="_blank"
             rel="noreferrer"
           >
-            FireBase
+            Click
           </a>
         ),
       },
@@ -311,7 +311,7 @@ export const portfolio = [
             target="_blank"
             rel="noreferrer"
           >
-            GitHub
+            Click
           </a>
         ),
       },
@@ -324,7 +324,7 @@ export const portfolio = [
             target="_blank"
             rel="noreferrer"
           >
-            FireBase
+            Click
           </a>
         ),
       },
@@ -355,7 +355,7 @@ export const portfolio = [
             target="_blank"
             rel="noreferrer"
           >
-            GitHub
+            Click
           </a>
         ),
       },
@@ -364,7 +364,7 @@ export const portfolio = [
         title: 'Preview : ',
         desc: (
           <a href="https://freesun.md/" target="_blank" rel="noreferrer">
-            FreeSun
+            Click
           </a>
         ),
       },
@@ -395,7 +395,7 @@ export const portfolio = [
             target="_blank"
             rel="noreferrer"
           >
-            GitHub
+            Click
           </a>
         ),
       },
@@ -408,7 +408,7 @@ export const portfolio = [
             target="_blank"
             rel="noreferrer"
           >
-            Restar-Dent
+            Click
           </a>
         ),
       },
@@ -439,7 +439,7 @@ export const portfolio = [
             target="_blank"
             rel="noreferrer"
           >
-            GitHub
+            Click
           </a>
         ),
       },
@@ -448,7 +448,7 @@ export const portfolio = [
         title: 'Preview : ',
         desc: (
           <a href="https://speakup.kz/" target="_blank" rel="noreferrer">
-            Speakup
+            Click
           </a>
         ),
       },
@@ -479,7 +479,7 @@ export const portfolio = [
             target="_blank"
             rel="noreferrer"
           >
-            GitHub
+            Click
           </a>
         ),
       },
@@ -492,7 +492,7 @@ export const portfolio = [
             target="_blank"
             rel="noreferrer"
           >
-            Firebase
+            Click
           </a>
         ),
       },
@@ -523,7 +523,7 @@ export const portfolio = [
             target="_blank"
             rel="noreferrer"
           >
-            GitHub
+            Click
           </a>
         ),
       },
@@ -536,7 +536,7 @@ export const portfolio = [
             target="_blank"
             rel="noreferrer"
           >
-            Firebase
+            Click
           </a>
         ),
       },
